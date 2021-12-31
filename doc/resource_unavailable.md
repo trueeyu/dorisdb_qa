@@ -58,6 +58,14 @@ Max realtime timeout      unlimited            unlimited            us
 
 Max processes 中的 Soft Limit (4096) 就是线程数的限制.
 
+查看进程的线程数:
+
+```
+cat /proc/7534/status | grep Threads
+
+Threads:        640
+```
+
 一般有两个解决办法:
 
 * 修改线程数限制:
