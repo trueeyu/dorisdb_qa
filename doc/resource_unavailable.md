@@ -71,4 +71,8 @@ ulimit -u xxxx
 ```
 # profile 不上报, 减少了 report 线程
 set global is_report_success = false;
+
+# 减少并行度
+set global parallel_fragment_exec_instance_num = 1;
 ```
+
