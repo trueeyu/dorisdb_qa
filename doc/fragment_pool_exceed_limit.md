@@ -1,4 +1,4 @@
-# fragment pool exceed limit
+# StarRocks 常见问题 4: fragment pool exceed limit
 
 ```
 Put planfragment a5664133-74d9-11ec-90cf-78ac445d4f6b to thread pool failed. err = Thread pool is at capacity (4096/4096 tasks running, 2048/2048 tasks queued), code: INTERNAL_ERROR, fragmentId=F10, backend=.26:9060 
